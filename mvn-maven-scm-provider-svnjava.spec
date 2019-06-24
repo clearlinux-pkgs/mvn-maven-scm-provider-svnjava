@@ -4,10 +4,11 @@
 #
 Name     : mvn-maven-scm-provider-svnjava
 Version  : 2.1.1
-Release  : 1
-URL      : https://repo1.maven.org/maven2/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1/maven-scm-provider-svnjava-2.1.1.jar
-Source0  : https://repo1.maven.org/maven2/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1/maven-scm-provider-svnjava-2.1.1.jar
-Source1  : https://repo1.maven.org/maven2/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1/maven-scm-provider-svnjava-2.1.1.pom
+Release  : 2
+URL      : https://github.com/olamy/maven-scm-provider-svnjava/archive/maven-scm-provider-svnjava-2.1.1.tar.gz
+Source0  : https://github.com/olamy/maven-scm-provider-svnjava/archive/maven-scm-provider-svnjava-2.1.1.tar.gz
+Source1  : https://repo1.maven.org/maven2/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1/maven-scm-provider-svnjava-2.1.1.jar
+Source2  : https://repo1.maven.org/maven2/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1/maven-scm-provider-svnjava-2.1.1.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -30,10 +31,10 @@ data components for the mvn-maven-scm-provider-svnjava package.
 
 %install
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1
 
 
 %files
