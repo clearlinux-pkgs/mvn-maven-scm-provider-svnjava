@@ -4,7 +4,7 @@
 #
 Name     : mvn-maven-scm-provider-svnjava
 Version  : 2.1.1
-Release  : 2
+Release  : 3
 URL      : https://github.com/olamy/maven-scm-provider-svnjava/archive/maven-scm-provider-svnjava-2.1.1.tar.gz
 Source0  : https://github.com/olamy/maven-scm-provider-svnjava/archive/maven-scm-provider-svnjava-2.1.1.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/google/code/maven-scm-provider-svnjava/maven-scm-provider-svnjava/2.1.1/maven-scm-provider-svnjava-2.1.1.jar
